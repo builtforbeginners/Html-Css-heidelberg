@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      .textFormat{
+        color: red;
+      }
+    </style>
+</head>
+<body>
+
+<div id="list" style="margin-top: 70px;">
+
+  <h3 class="textFormat">List</h3>
+  <hr/>
+  <div>
+    <ol start="10">         <!-- Ordered List -->
+      <li><img src="../Images/book.svg" width="16" height="16"/>Географија</li>
+      <li><img src="../Images/book.svg" width="16" height="16"/>Математика</li>
+      <li><img src="../Images/book.svg" width="16" height="16"/>Историја</li>
+      <li><img src="../Images/book.svg" width="16" height="16"/>Информатика
+        <ul type="disc">            <!-- Unordered List -->    <!-- circle, square, none -->    <!--  style="list-style-type:disc;"  -->
+          <li>Бази на податоци</li>
+          <li>Веб дизајн</li>
+          <ol type="I">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ol>
+          <li>Програмирање</li>
+        </ul>
+      </li>
+      <li><img src="../Images/book.svg" width="16" height="16"/>Физика</li>
+    </ol>
+  </div>
+  <hr/>
+
+  <h3 class="textFormat">Description List</h3>
+  <hr/>
+  <div>
+    <dl>
+      <dt>Coffee</dt>
+      <dd>- black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+    </dl>
+    <br/><br/><br/>
+    <dl>
+      <dt><a href="https://en.wikipedia.org/wiki/Cat" target="_blank">Cat</a></dt>
+      <dd>The cat (Felis catus) is a domestic species of small carnivorous mammal.[</dd>
+      <dt><a href="https://en.wikipedia.org/wiki/Dog" target="_blank">Dog</a></dt>
+      <dd>The dog or domestic dog (Canis familiaris[4][5] or Canis lupus familiaris[5]) is a domesticated descendant of the wolf. </dd>
+      <dt><a href="https://en.wikipedia.org/wiki/Wolf" target="_blank">Wolf</a></dt>
+      <dd>The wolf (Canis lupus[b]), also known as the gray wolf or grey wolf, is a large canine native to Eurasia and North America.</dd>
+      <dt><a href="https://en.wikipedia.org/wiki/Bird" target="_blank">Bird</a></dt>
+      <dd>Birds are a group of warm-blooded vertebrates constituting the class Aves (/ˈeɪviːz/), characterised by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton. Birds live worldwide and range in size from the 5.5 cm (2.2 in) bee hummingbird to the 2.8 m (9 ft 2 in) ostrich.</dd>
+    </dl>
+
+  </div>
+  <hr/>
+
+
+  <h3 class="textFormat">Table</h3>
+  <hr/>
+  <div>
+    <table border="2">
+      <caption>Users</caption>
+      <thead>
+        <tr>
+          <th>FirstName</th>
+          <th>LastName</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ime 1</td>
+          <td>Prezime 1</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>Ime 2</td>
+          <td>Prezime 2</td>
+          <td>33</td>
+        </tr>
+        <tr>
+          <td>Ime 3</td>
+          <td>Prezime 3</td>
+          <td>44</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <hr/>
+
+  <h3 class="textFormat">Table vertical header</h3>
+  <hr/>
+  <div>
+    <table border="2" cellpadding="20" cellspacing="0">
+      <caption>Users</caption>
+      <tr>
+        <th>FirstName</th>
+        <td>Ime 1</td>
+        <td>Ime 2</td>
+      </tr>
+      <tr>
+        <th>LastName</th>
+        <td>Prezime 1</td>
+        <td>Prezime 2</td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td>22</td>
+        <td>33</td>
+      </tr>
+    </table>
+  </div>
+  <hr/>
+
+
+</div>
+
+<h3 class="textFormat">Table task 4</h3>
+<hr/>
+<div>
+  <table border="2" cellpadding="20" cellspacing="0">
+    <caption>Users</caption>
+    <tr>
+      <th>Countries</th>
+      <th>Main cities</th>
+      <th>Population</th>
+      <th>Flags</th>
+    </tr>
+    <tr>
+      <td>USA</td>
+      <td>Washington DC</td>
+      <td>300.000.000</td>
+      <td><img src="../Images/usa.png" title="This is USA" alt="USA"/> </td>
+    </tr>
+    <tr>
+      <td>Germany</td>
+      <td>Berlin</td>
+      <td>83.000.000</td>
+      <td><img src="../Images/germany.png" title="This is germany" alt="GERMANY"/></td>
+    </tr>
+    <tr>
+      <td>The Netherlands</td>
+      <td>Amsterdam</td>
+      <td>18.000.000</td>
+      <td><img src="../Images/netherlands.png" title="This is Netherlands" alt="NETHERLANDS"/></td>
+    </tr>
+    <tr>
+      <td>Macedonia</td>
+      <td>Skopje</td>
+      <td>2.000.000</td>
+      <td><img src="../Images/macedonia.png" title="This is MACEDONIA" alt="MACEDONIA"/></td>
+    </tr>
+  </table>
+</div>
+<hr/>
+
+
+<h3 class="textFormat">Table colspan</h3>
+<hr/>
+<div>
+  <table border="2" cellpadding="20" cellspacing="0">
+    <caption>Users</caption>
+    <tr>
+      <th colspan="2">Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Petar</td>
+      <td>Petrov</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>Ime </td>
+      <td>Prezime</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>Ime 1</td>
+      <td>Prezime 1</td>
+      <td>31</td>
+    </tr>
+  </table>
+</div>
+<hr/>
+
+<h3 class="textFormat">Table rowspan</h3>
+<hr/>
+<div>
+  <table border="1" cellpadding="5">
+    <tr>
+      <th rowspan="2">Name</th>
+      <td>Jon</td>
+    </tr>
+    <tr>
+      <td>Doe</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>30</td>
+    </tr>
+  </table>
+</div>
+<hr/>
+
+
+
+<h3 class="textFormat">Table Task 7</h3>
+<hr/>
+<div>
+  <table border="1" cellpadding="10" cellspacing="5">
+    <tr>
+      <th rowspan="3" width="20">Day</th>
+      <th colspan="4" width="20">Seminar</th>
+    </tr>
+    <tr>
+      <th colspan="2">Schedule</th>
+      <th rowspan="2">Topic</th>
+    </tr>
+    <tr>
+      <th>Begin</th>
+      <th>End</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Monday</td>
+      <td rowspan="2">8:00 a.m.</td>
+      <td rowspan="2">5:00 p.m.</td>
+      <td>Introduction to XML</td>
+
+    </tr>
+    <tr>
+      <td>Validaty: DTD and Relax NG</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Tuesday</td>
+      <td>8:00 a.m.</td>
+      <td>11:00 a.m.</td>
+      <td rowspan="2">XPath</td>
+    </tr>
+    <tr>
+      <td>11:00 a.m.</td>
+      <td>2:00 p.m.</td>
+    </tr>
+    <tr>
+      <td>2:00 p.m.</td>
+      <td>5:00 p.m.</td>
+      <td>XML Transformations</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Wednesday</td>
+      <td>8:00 a.m.</td>
+      <td>12:00 p.m.</td>
+      <td rowspan="2">XSL Formatting Objects</td>
+    </tr>
+  </table>
+</div>
+<hr/>
+
+
+<h3 class="textFormat">Example 1</h3>
+<hr/>
+<div>
+
+  <table border="1" cellpadding="20" cellspacing="10">
+    <caption>Users</caption>
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Surname</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Jon</td>
+      <td>DoeDoeDoeDoe</td>
+    </tr>
+    <tr>
+      <td>Simon</td>
+      <td>Simon</td>
+      <td>Simon</td>
+    </tr>
+    </tbody>
+  </table>
+
+  <br/>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <td>Jon</td>
+      <td>Simon</td>
+    </tr>
+    <tr>
+      <th>Surname</th>
+      <td>Doe</td>
+      <td>Doe</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>30</td>
+      <th>40</th>
+    </tr>
+  </table>
+
+  <br/>
+  <table border="1" cellpadding="10">
+    <caption>Example colspan</caption>
+    <thead>
+    <tr>
+      <th colspan="2">Name</th>
+      <th>Age</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Jon</td>
+      <td>Doe</td>
+      <td>30</td>
+    </tr>
+    </tbody>
+  </table>
+
+  <br/>
+  <table border="1" cellpadding="10">
+    <caption>Example rowspan</caption>
+    <tbody>
+    <tr>
+      <td rowspan="3">User</td>
+      <td>Jon</td>
+    </tr>
+    <tr>
+      <td>Doe</td>
+    </tr>
+    <tr>
+      <td>30</td>
+    </tr>
+    </tbody>
+  </table>
+
+</div>
+<hr/>
+
+
+<h3 class="textFormat">Example 2</h3>
+<hr/>
+<div>
+
+  <h1>Ordered lists</h1>
+  <ol start="15"> <!-- default is set to type="1" -->
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+  </ol>
+  <ol type="A">
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+  </ol>
+
+  <ol type="a">
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+  </ol>
+
+  <ol type="I">
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+  </ol>
+
+  <ol type="i">
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+  </ol>
+
+  <ol reversed>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+  </ol>
+
+  <h1>Unordered lists</h1>
+  <ul>  <!-- default type="disc" -->
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+  </ul>
+  <ul type="square">
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+  </ul>
+  <ul type="circle">
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+  </ul>
+  <ul type="none">
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+  </ul>
+  <ul style="list-style-type: none;">
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+  </ul>
+
+  <h1>Nested Lists</h1>
+  <h2>Food</h2>
+  <ol>
+    <li>Pasta
+      <ul>
+        <li>Carbonara</li>
+        <li>Bolognese</li>
+      </ul>
+    </li>
+    <li>Pizza</li>
+  </ol>
+
+  <h1>Description lists</h1>
+  <dl>
+    <dt>user name</dt>
+    <dd>- Jon Doe</dd>
+    <dt>user age</dt>
+    <dd>- 30</dd>
+  </dl>
+
+</div>
+<hr/>
+
+
+<h3 class="textFormat">Example 3</h3>
+<hr/>
+<div>
+
+  <table border="3" cellpadding="15" cellspacing="5">
+    <tr>
+      <th rowspan="3">Day</th>
+      <th colspan="3">Seminar</th>
+    </tr>
+    <tr>
+      <th colspan="2">Schedule</th>
+      <th rowspan="2">Topic</th>
+    </tr>
+    <tr>
+      <th>Begin</th>
+      <th>End</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Monday</td>
+      <td rowspan="2">8:00 a.m.</td>
+      <td rowspan="2">5:00 p.m.</td>
+      <td>Introduction to XML</td>
+    </tr>
+    <tr>
+      <td>Validity: DTD and Relax NG</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Tuesday</td>
+      <td>8:00 a.m.</td>
+      <td>11:00 a.m.</td>
+      <td rowspan="2">XPath</td>
+    </tr>
+    <tr>
+      <td>11:00 a.m.</td>
+      <td>2:00 p.m.</td>
+    </tr>
+    <tr>
+      <td>2:00 p.m.</td>
+      <td>5:00 p.m.</td>
+      <td>XSL Transformations</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>8:00 a.m.</td>
+      <td>12:00 p.m.</td>
+      <td>XSL Formatting Objects</td>
+    </tr>
+  </table>
+
+</div>
+<hr/>
+
+</body>
+</html>

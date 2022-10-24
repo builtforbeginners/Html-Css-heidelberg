@@ -1,0 +1,182 @@
+table{
+    border-collapse: collapse;
+    font-family: arial, sans-serif;
+}
+
+
+th {
+    background-color: #4ca772;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.positionH2{
+    margin-top: 100px;
+}
+
+/*
+ *
+ *    Task 1
+ *
+ */
+
+
+task1 img{
+    background-position: top right;
+}
+
+task1 h1{
+    width: 650px;
+}
+
+task1 p{
+    width: 650px;
+}
+
+
+/*
+ *
+ *    Task 2
+ *
+ */
+
+#orderList{
+    background-color: #f19d9b;
+}
+
+#drinkOl{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#drinkOl li{
+    margin-right: 15px;
+    background-color: #fbe5e5;
+}
+
+#unorderList{
+    background-color: #5297f9;
+}
+
+#dringUl{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+#dringUl li{
+    margin-top: 5px;
+    background-color: #d2e3fc;
+    margin-right: 15px;
+}
+
+/*
+ *
+ *  Task 3
+ *
+ */
+
+#task3{
+    border: 1px solid silver;
+    width: 300px;
+}
+
+#task3 p{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+#task3:hover{
+    border: 1px solid black;
+}
+
+
+/*
+ *
+ *  Task 4
+ *
+ */
+
+
+
+#task4 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+#task4 li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#task4 li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+#task4 li a:hover {
+    background-color: #4ca772;
+    color: white;
+}
+
+
+/*
+ *
+ *  Task 5
+ *
+ */
+
+
+#task5{
+    width: 450px;
+    height: 250px;
+    border-radius: 8px;
+    background-color: #f3f3f3;
+}
+
+#task5 form{
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-right: 20px;
+    display: block;
+}
+
+#task5 input{
+    display: block;
+    height: 30px;
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#task5 label{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#task5 input[type="submit"]{
+    color: white;
+    background-color: #45a049;
+}
+
+#task5 input[type="submit"]:hover{
+    background-color: green;
+}

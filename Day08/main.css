@@ -1,0 +1,62 @@
+.border{
+    border: 3px solid #bd4a9b;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    border: 3px solid green;
+    padding: 10px;
+    font-size: 22px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+a:link, a:visited{
+    color: black;
+}
+
+a:hover, a:active {
+    background-color: green;
+    color: white;
+}
+
+.borderStyleFirst{
+    border-style: dashed;
+    border-width: 2px 5px;
+}
+
+.borderStyleSecond{
+    border-style: dashed dashed double dashed;
+    border-color: #EEB717 red darkgreen yellow;
+}
+
+.borderStyleThird{
+    border-style: dashed double;            /* Top and Bottom,  left and right */
+}
+
+.borderStyleFourth{
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+.marginsPaddings .margins{
+    margin: 5px 10px 5px;
+}
+
+#blocksInlineBoxes img{
+    display: inline;
+}
+
+#blocksInlineBoxes p{
+    display: inline;
+}
+
+
+
+
+
+
+

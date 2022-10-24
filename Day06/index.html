@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Intro CSS</title>
+    <style>
+      .embeddedCss{
+        color: blue;
+      }
+
+    </style>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <h1>Intro CSS</h1>
+
+    <h3>3 Ways of adding CSS in project</h3>
+    <ol type="1" start="1">
+      <li style="color: red;">Inline</li>
+      <li class="embeddedCss">Embedded</li>
+      <li class="externalCss">External-Most recommended</li>
+    </ol>
+    <hr/>
+
+    <h3>Selectors</h3>
+    <ol type="1" start="1">
+        <li>Universal selector *</li>
+        <li>Element selector (body, p, h1..h6)</li>
+        <li id="idSelector">Id selector</li>
+        <li class="classSelector">Class selector</li>
+    </ol>
+    <hr/>
+
+    <div>
+        <p>Descendant selectors- select all p element in div tag</p>
+        <hr/>
+    </div>
+
+    <div id="first">
+        <p>Targer all paragraph</p>
+        <label>Targer all paragraph</label>
+        <p>Targer all paragraph</p>
+        <hr/>
+    </div>
+
+    <section>
+        <p>This is a section paragraph - Child selectors</p>
+        <div>
+            <p>This is a section div paragraph</p>
+        </div>
+    </section>
+
+
+
+</body>
+</html>

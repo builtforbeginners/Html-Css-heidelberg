@@ -1,0 +1,19 @@
+body{
+
+    background: url("image/pexels-alexandre-saraiva-carniato-9381417.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    font-size: 82px;
+    text-align: center;
+    text-shadow: 2px 2px 15px white;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+
+}

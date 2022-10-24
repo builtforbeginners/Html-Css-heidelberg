@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day07-Color&Text</title>
+    <link href="main.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+
+    <h2 style="margin-top: 0px;">1.Link Color Background</h2>
+    <div id="navLink">
+        <h2>Color</h2>
+        <a aria-label="External Link" href="https://www.canva.com/colors/color-wheel/" target="_blank">Color Wheel</a> <br/>
+        <a aria-label="External Link" href="https://www.w3schools.com/colors/colors_schemes.asp" target="_blank">Color schemes</a> <br/>
+        <a aria-label="External Link" href="https://www.canva.com/colors/color-palettes/" target="_blank">Color palettes</a> <br/>
+        <a aria-label="External Link" href="https://www.w3schools.com/colors/colors_gradient.asp" target="_blank">Color gradient</a> <br/>
+        <a aria-label="External Link" href="https://www.w3schools.com/colors/colors_psychology.asp" target="_blank">Color psychology</a> <br/>
+    </div>
+    <hr/>
+
+    <h2>2.Css Backgrounds</h2>
+    <div id="background">
+        <ol>
+            <li>background-color</li>
+            <li>background-image</li>
+            <li>background-repeat</li>
+            <li>background-position</li>
+            <li>background-attachment - It specifies whether the background image should scroll or be fixed, By default it scrolls with the rest of the page.<b>Ova se koristi
+                za hederi koga skrolame hederot da si ostane na istata pozicija.</b></li>
+            <li>background (shorthand property)   <b>example: background: #ffffff url("img.png") no-repeat right top fixed;</b></li>
+        </ol>
+    </div>
+    <hr/>
+
+    <h2>3.Css Background Size</h2>
+    <div id="backgroundSize">
+        <ol>
+            <li>background-size: contain;    keyword syntax ("auto", "cover" and "contain")</li>
+            <li>background-size: 500px;      one-value syntax (sets the width of the image & height becomes "auto")</li>
+            <li>background-size: 75% 50%;    two-value syntax (first value: width of the image, second value: height)</li>
+        </ol>
+    </div>
+    <hr/>
+
+    <h2>4.Css Text Alignment</h2>
+    <div id="CssText">
+        <ol>
+            <li>text-align:center;  (A text can be left or right aligned, centered, or justified) </li>
+        </ol>
+        <span><b>When the text-align:justify; property is set to "justify", each line is stretched so that every line has equal width, and the left and right margins are straight (like in magazines and newspapers)</b></span>
+    </div>
+    <hr/>
+
+    <h2>5.Css horizontal Alignment</h2>
+    <div id="horizontalAlignment">
+        <ol>
+            <li>text-align:center;  (A text can be left or right aligned, centered, or justified) </li>
+        </ol>
+        <h3>Left example</h3>
+        <p class="textAlignedLeft">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <h3>Justify example</h3>
+        <p class="textAlignedJustify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <span style="margin-left: 25px;"><b>When the text-align:justify; property is set to "justify", each line is stretched so that every line has equal width, and the left and right margins are straight (like in magazines and newspapers)</b></span>
+    </div>
+    <hr/>
+
+    <h2>6.Css Vertical Alignment</h2>
+    <div id="VerticalAlignment">
+        <h2 style="margin-left: 25px;">Example of <img src="../Images/vape.png" width="18" height="18"> image alignment.</h2>
+    </div>
+    <hr/>
+
+    <h2>7.Css text decoration</h2>
+    <div id="textDecoration">
+        <ol>
+            <li>text-decoration-line: overline underline;</li>
+            <li>text-decoration-color: red;</li>
+            <li>text-decoration-style: double;</li>
+            <li>text-decoration-thickness: 5px;</li>
+            <li>text-decoration: underline red double 5px;</li>
+        </ol>
+    </div>
+    <hr/>
+
+    <h2>8.Css text transform</h2>
+    <div id="textTransform">
+        <ol>
+            <li>text-transform: uppercase;</li>
+            <li>text-transform: lowercase;</li>
+            <li>text-transform: capitalize;</li>
+        </ol>
+    </div>
+    <hr/>
+
+    <h2>9.Css text spacing</h2>
+    <div id="textSpacing">
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    <span style="margin-left: 25px;"> text-indent:  25px; letter-spacing: 5px; line-height: 1.8; word-spacing: 15px; white-space: normal; </span>
+    <hr/>
+
+    <h2>10.Css text shadow</h2>
+    <div id="textShadow">
+       <h2>Text Shadow</h2>
+       <h3>Text Shadow</h3>
+    </div>
+    <hr/>
+
+
+    <h2>11.Fonts google</h2>
+    <div id="textFonts">
+        <h2>You can add the font in 2 ways</h2>
+        <ul>
+            <li>With the <link> tag in the head from the HTML document</li>
+            <li>With @import in the main css file</li>
+        </ul>
+    </div>
+    <hr/>
+
+
+    <h2>11.Fonts lenght</h2>
+    <div id="textFontsLenght">
+        <div>
+            <h2>font lenght pixel</h2>
+            <p style="font-size: 32px">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <div>
+            <h2>font lenght em</h2>
+            <p style="font-size: 2rem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </div>
+        <div>
+            <h2>font lenght rem</h2>
+            <p style="font-size: 2em">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+    </div>
+    <hr/>
+
+
+
+
+</body>
+</html>
